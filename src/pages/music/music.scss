@@ -1,0 +1,155 @@
+page-about {
+
+.right {
+  float: right;
+  margin-top: -37px;
+}
+
+.tracks {
+  font-family: open-sans;
+  font-size: 14px;
+  color: #b7c4cb;
+  margin-top: -10px;
+}
+
+.box {
+  position: relative;
+}
+
+.player {
+  position: absolute;
+  left: 33vw;
+  top: 5.5vh;
+}
+
+.play {
+  margin-top: 1.5vh;
+}
+
+.play-menu {
+  float: right;
+  margin-top: 2.2vh;
+  width: 7%;
+  height: auto;
+}
+
+.playing {
+  position: absolute;
+  left: 15vw;
+  top: 2vh;
+}
+
+.title {
+  font-family: open-sans;
+  font-size: 14px;
+  color: #1c252a;
+  margin-top: -10px;
+}
+
+.subtitle {
+  font-family: open-sans;
+  font-size: 9px;
+  color: #b7c4cb;
+  margin-top: -12px;
+}
+
+.popover-page {
+  .text-to-change div {
+    margin: 10px auto;
+  }
+
+  ion-row,
+  ion-col {
+    padding: 0;
+  }
+
+  .text-button {
+    padding-left: 0;
+    text-align: center;
+    min-height: 20px;
+    line-height: 18px;
+  }
+
+  .text-button .item-inner {
+    padding-right: 0;
+  }
+
+  .text-smaller {
+    font-size: 12px;
+  }
+
+  .text-larger {
+    font-size: 16px;
+  }
+
+  .row-dots {
+    text-align: center;
+
+    .dot {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      margin: 10px auto;
+      position: relative;
+    }
+  }
+
+  .dot-white {
+    background-color: rgb(255,255,255);
+  }
+
+  .dot-tan {
+    background-color: rgb(249,241,228);
+  }
+
+  .dot-grey {
+    background-color: rgb(76,75,80);
+  }
+
+  .dot-black {
+    background-color: rgb(0,0,0);
+  }
+
+  .dot.selected {
+    border-width: 2px;
+    border-color: #327eff;
+  }
+
+  .text-athelas {
+    font-family: "Athelas";
+  }
+
+  .text-charter {
+    font-family: "Charter";
+  }
+
+  .text-iowan {
+    font-family: "Iowan";
+  }
+
+  .text-palatino {
+    font-family: "Palatino";
+  }
+
+  .text-san-francisco {
+    font-family: "San Francisco";
+  }
+
+  .text-seravek {
+    font-family: "Seravek";
+  }
+
+  .text-times-new-roman {
+    font-family: "Times New Roman";
+  }
+}
+
+.popover-page {
+  .text-smaller,
+  .row-dots,
+  .dot {
+    border-width: $hairlines-width;
+  }
+}
+
+}

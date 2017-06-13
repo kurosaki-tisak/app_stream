@@ -6,6 +6,9 @@
     <content src="index.html"/>
     <access origin="*"/>
     <allow-navigation href="http://ionic.local/*"/>
+    <allow-navigation href="http://localhost:8100/*"/>
+    <allow-navigation href="*://*.youtube.com/*"/>
+    <allow-navigation href="*://*.vimeo.com/*"/>
     <allow-intent href="http://*/*"/>
     <allow-intent href="https://*/*"/>
     <allow-intent href="tel:*"/>
