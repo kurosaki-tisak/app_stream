@@ -11,9 +11,11 @@ import { Intro } from '../pages/intro/intro';
 import { Login} from '../pages/login/login';
 import { VimeoVideo } from '../pages/videos/vimeo';
 import { YoutubeVideo } from '../pages/videos/youtube';
+import { MusicPop } from '../pages/music/music-popOver/popover';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { ParallaxHeaderDirective } from '../directives/parallax-header/parallax-header';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Intro,
     Login,
     VimeoVideo,
-    YoutubeVideo
+    YoutubeVideo,
+    MusicPop,
+    ParallaxHeaderDirective
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Intro,
     Login,
     VimeoVideo,
-    YoutubeVideo
+    YoutubeVideo,
+    MusicPop
   ],
   providers: [
     StatusBar,
