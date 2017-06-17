@@ -12,6 +12,7 @@ import { Login} from '../pages/login/login';
 import { VimeoVideo } from '../pages/videos/vimeo';
 import { YoutubeVideo } from '../pages/videos/youtube';
 import { MusicPop } from '../pages/music/music-popOver/popover';
+import { ProfilePage } from '../pages/profile/profile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +30,8 @@ import { ParallaxHeaderDirective } from '../directives/parallax-header/parallax-
     VimeoVideo,
     YoutubeVideo,
     MusicPop,
-    ParallaxHeaderDirective
+    ParallaxHeaderDirective,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import { ParallaxHeaderDirective } from '../directives/parallax-header/parallax-
     Login,
     VimeoVideo,
     YoutubeVideo,
-    MusicPop
+    MusicPop,
+    ProfilePage
   ],
   providers: [
     StatusBar,
